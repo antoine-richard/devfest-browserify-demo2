@@ -1,11 +1,5 @@
-(function() {
+module.exports = function(events) {
 
-  angular
-  .module('event')
-  .controller('EventListCtrl', function(events) {
+  this.events = events.list();
 
-    this.events = events.list();
-
-  });
-
-}());
+};

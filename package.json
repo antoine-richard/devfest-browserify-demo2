@@ -1,0 +1,7 @@
+{
+  "name": "demo-angular-browserify",
+  "devDependencies": {
+    "angular": "^1.3.1",
+    "angular-route": "^1.3.1"
+  }
+}

@@ -1,5 +1,9 @@
-(function() {
+require('angular/angular');
+require('angular-route/angular-route');
 
-  angular.module('demoApp', ['ngRoute', 'event']);
+require('./event');
 
-}());
+angular
+.module('demoApp', ['ngRoute', 'event'])
+.config(require('./routes'))
+;
