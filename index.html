@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="demoApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo AngularJS + Browserify</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <div class="container" ng-view></div>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/routes.js"></script>
+    <script src="src/event/module.js"></script>
+    <script src="src/event/controllers/list.js"></script>
+    <script src="src/event/data/events.js"></script>
+
+</body>
+</html>
